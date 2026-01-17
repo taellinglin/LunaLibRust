@@ -1,11 +1,11 @@
 [package]
 name = "lunalib"
-version = "0.1.1"
-edition = "2021"
+version = "0.1.3"
+edition = "2024"
 description = "Rust implementation of LunaLib: cryptocurrency wallet and mining system"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Ling Lin <taellinglin@gmail.com>, Sanny Lin <SannyLing53@gmail.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/yourusername/lunalib_rust"
+repository = "https://github.com/taellinglin/LunaLibRust"
 readme = "README.md"
 
 [dependencies]

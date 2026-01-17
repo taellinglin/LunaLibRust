@@ -1,0 +1,18 @@
+.venv
+__pycache__
+build
+
+# Added by cargo
+
+/target
+
+# Ignore Python files
+*.py
+lunalib.egg-info/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore other OS files
+.DS_Store
+Thumbs.db

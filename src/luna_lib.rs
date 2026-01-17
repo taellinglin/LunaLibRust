@@ -1,5 +1,28 @@
+//! # LunaLibRust
+//!
+//! Rust implementation of LunaLib: a cryptocurrency wallet and mining system.
+//!
+//! ## Quick Start Example
+//!
+//! ```rust
+//! use lunalib_rust::luna_lib::*;
+//!
+//! // Create a wallet
+//! let wallet = create_wallet();
+//! // Create a miner
+//! let miner = create_miner();
+//! // Create a blockchain manager
+//! let blockchain = create_blockchain_manager(Some("https://bank.linglin.art"));
+//! // Create a mempool manager
+//! let mempool = create_mempool_manager(None);
+//! // Get a transaction manager
+//! let tx_manager = get_transaction_manager();
+//! // Print version
+//! println!("{}", LunaLib::get_version());
+//! ```
+//!
 //! Main library entry point exposing all core functionality
-
+//!
 use crate::core::wallet::LunaWallet;
 use crate::mining::miner::GenesisMiner;
 use crate::gtx::genesis::GTXGenesis;

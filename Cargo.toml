@@ -1,6 +1,6 @@
 [package]
-name = "lunalib_rust"
-version = "0.1.0"
+name = "lunalib"
+version = "0.1.1"
 edition = "2021"
 description = "Rust implementation of LunaLib: cryptocurrency wallet and mining system"
 authors = ["Your Name <your.email@example.com>"]
